@@ -1,0 +1,99 @@
+{
+  "questionId": "Q001",
+  "title": "Pressure-Volume Loop in High Airway Resistance",
+  "category": "respiratory-mechanics",
+  "difficulty": "intermediate",
+  "vignette": "A 65-year-old male with COPD is on mechanical ventilation. You observe the pressure-volume loop shown below. The loop shows increased work of breathing with a rightward shift. What is the most likely cause?",
+  "questionFigure": {
+    "imageUrl": "/images/questions/Q001-pv-loop.png",
+    "caption": "Pressure-Volume Loop - Observe the shape and trajectory",
+    "hasTable": false
+  },
+  "alternatives": [
+    {
+      "letter": "A",
+      "text": "Decreased lung compliance",
+      "feedback": {
+        "isCorrect": false,
+        "comment": "While compliance can affect the loop, this patient's primary issue is airway resistance.",
+        "detailedExplanation": "Decreased compliance would show a steeper slope overall, not the characteristic rightward shift seen here.",
+        "supportingFigure": {
+          "imageUrl": "/images/feedback/Q001-A-compliance-loop.png",
+          "caption": "Comparison: Low compliance P-V loop (steeper)"
+        },
+        "supportingTable": null
+      }
+    },
+    {
+      "letter": "B",
+      "text": "Increased airway resistance",
+      "feedback": {
+        "isCorrect": true,
+        "comment": "Correct! High airway resistance increases the pressure needed to generate flow, creating this characteristic loop shape.",
+        "detailedExplanation": "Increased resistance causes increased pressure needed for same volume change, hysteresis loop expansion, and loss of sharp corner at peak inspiration.",
+        "supportingFigure": {
+          "imageUrl": "/images/feedback/Q001-B-resistance-explanation.png",
+          "caption": "High Resistance P-V Loop: Note the expanded hysteresis"
+        },
+        "supportingTable": {
+          "title": "Causes of Increased Airway Resistance",
+          "data": [
+            ["Cause", "Clinical Finding", "Management"],
+            ["Secretions", "Coarse crackles, decreased SpO2", "Suctioning"],
+            ["Bronchospasm", "Wheezing, increased Pplat", "Bronchodilators"],
+            ["Tube obstruction", "High PIP, sudden change", "Reposition/replace tube"]
+          ]
+        }
+      }
+    }
+  ],
+  "keyPoints": [
+    "Increased airway resistance widens the P-V loop (increased hysteresis)",
+    "The loop shift is rightward, not upward - indicating resistance, not compliance issue",
+    "Common causes in ventilated patients: secretions, bronchospasm, tube obstruction"
+  ],
+  "authors": [
+    {
+      "name": "Dr. João Silva",
+      "affiliation": "Department of Critical Care, Hospital Central, Brazil"
+    },
+    {
+      "name": "Dr. Maria Santos",
+      "affiliation": "Pulmonology Unit, Federal University, Brazil"
+    }
+  ],
+  "peerReviewer": {
+    "name": "Dr. Carlos Mendes",
+    "affiliation": "Head of ICU, Teaching Hospital, Portugal"
+  },
+  "keywords": [
+    "pressure-volume-loop",
+    "airway-resistance",
+    "COPD",
+    "mechanical-ventilation",
+    "respiratory-mechanics",
+    "ventilator-troubleshooting"
+  ],
+  "references": [
+    {
+      "id": 1,
+      "title": "Understanding Pressure-Volume Loops in Mechanical Ventilation",
+      "authors": "Milic-Emili J, Jiang TX",
+      "year": 2019,
+      "journal": "Critical Care Medicine",
+      "volume": "47",
+      "pages": "1234-1242",
+      "doi": "10.1097/CCM.0000000000003911"
+    },
+    {
+      "id": 2,
+      "title": "Airway Resistance in Mechanically Ventilated Patients: Clinical Assessment",
+      "authors": "Ranieri VM, Breda A, Slutsky AS",
+      "year": 2018,
+      "journal": "Respiratory Physiology & Neurobiology",
+      "volume": "253",
+      "pages": "19-28",
+      "doi": "10.1016/j.resp.2018.03.008"
+    }
+  ]
+}
